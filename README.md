@@ -1,7 +1,6 @@
 # Readme code testing example
 
-![[<marko.inline.RawText object at 0x7f84d30c8310>]](https://github.com/tokusumi/readme-code-testing/workflows/Test%20code%20and%20embed%20into%20README/badge.svg)
-
+![Test code and embed into README](https://github.com/tokusumi/readme-code-testing/workflows/Test%20code%20and%20embed%20into%20README/badge.svg)
 
 This repo demonstrates [Markdown Embed Code From File](https://github.com/marketplace/actions/markdown-embed-code-from-file) (GitHub Action).
 
