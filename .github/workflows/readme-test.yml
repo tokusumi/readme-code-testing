@@ -36,7 +36,6 @@ jobs:
         continue-on-error: true
 
       - name: Commit files
-        id: commit
         if: steps.modified.outcome == 'failure'
         run: |
           git config --local user.email "action@github.com"
