@@ -15,9 +15,6 @@ This action could inspect your code, if you add a file path in code block as "\`
 The following code block has a file path `src/helloworld.py`:
 
 ```python:src/helloworld.py
-def hello():
-    return "v1.0.0 world"
-
 ```
 
 See [src/helloworld.py](./src/helloworld.py) as:
@@ -46,8 +43,6 @@ You might add specific lines from one file (ex. [src/mul.py](./src/mul.py)).
 This action supports this with the syntax as "\`\`\`lang:external/file/path.py [start:end]\`\`\`" for it:
 
 ```py:src/mul.py [3-4]
-def multiple(x):
-    return pow(x, 2)
 ```
 
 ### Multiple use
@@ -55,19 +50,11 @@ def multiple(x):
 You might add one file path (ex. [src/mul.py](./src/mul.py)) for multiple code blocks:
 
 ```py:src/mul.py
-from math import pow
-
-def multiple(x):
-    return pow(x, 2)
 ```
 
 It works!:
 
 ```py:src/mul.py
-from math import pow
-
-def multiple(x):
-    return pow(x, 2)
 ```
 
 However, the other is not available.
@@ -85,9 +72,6 @@ Ideally you could write as "\`\`\`lang:external/file/path.py\`\`\`", but actuall
 So, missing "lang" is available:
 
 ```:src/helloworld.sh
-#!/bin/bash
-
-echo "hello"
 ```
 
 ## Formatting
