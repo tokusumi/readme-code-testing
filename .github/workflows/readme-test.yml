@@ -1,12 +1,8 @@
 name: "Test code and embed into README@v0.1.1"
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+  workflow_dispatch:  
+
 jobs:
   readme-test:
     runs-on: ubuntu-latest
