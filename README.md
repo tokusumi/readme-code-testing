@@ -32,10 +32,10 @@ And notice that there are nothing to do re-embedding new/modified code. This act
 Let's try demonstration in your repository as follows:
 
 1. fork this repository.
-2. edit [src/helloworld.py]("./src/helloworld.py"), create a new branch and start a pull request.
-3. go to PR to check action result.
-4. you can see auto updated readme at new branch you created above. (see if [above code block](#mark-your-code-for-embedding) is modified)
-5. you can try again, if you edit it and commit again.
+1. edit [src/helloworld.py]("./src/helloworld.py"), create a new branch and start a pull request.
+1. go to PR to check action result.
+1. you can see auto updated readme at new branch you created above. (see if [above code block](#mark-your-code-for-embedding) is modified)
+1. you can try again, if you edit it and commit again.
 
 ## More features
 ### Embedding specific lines
