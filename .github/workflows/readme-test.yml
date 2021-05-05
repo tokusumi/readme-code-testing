@@ -24,7 +24,7 @@ jobs:
       - name: Test with pytest
         run: pytest test_src
 
-      - uses: tokusumi/markdown-embed-code@main
+      - uses: tokusumi/markdown-embed-code@v0.1.1
         with:
           markdown: "README.md"
 
