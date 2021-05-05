@@ -1,7 +1,6 @@
-name: "Test code and embed into README@v0.1.1"
+name: Test code and embed into README
 
-on:
-  workflow_dispatch:  
+on: [workflow_dispatch]
 
 jobs:
   readme-test:
