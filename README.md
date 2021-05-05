@@ -19,17 +19,39 @@ def hello():
     return "world"
 ```
 
-See with [src/helloworld.py]() as:
+See [src/helloworld.py]("./src/helloworld.py") as:
 
 * Synchronized code.
 * Highlighting code in readme.
 * Not affected code rendering.
 
-And notice that nothing to do re-embedding new/modified code. This action overrides code if you change code in external file.
+And notice that there are nothing to do re-embedding new/modified code. This action overrides code automatically if you change code in external file and commit it.
+
+### Try it
+
+Let's try demonstration in your repository as follows:
+
+1. fork this repository.
+2. edit [src/helloworld.py]("./src/helloworld.py"), create a new branch and start a pull request.
+3. go to PR to check action result.
+4. you can see auto updated readme at new branch you created above. (see if [above code block](#mark-your-code-for-embedding) is modified)
+5. you can try again, if you edit it and commit again.
+
+## More features
+### Embedding specific lines
+
+You might add specific lines from one file (ex. [src/mul.py]("./src/mul.py")).
+
+This action supports this with the syntax as "\`\`\`lang:external/file/path.py [start:end]\`\`\`" for it:
+
+```py:src/mul.py [3-4]
+def multiple(x):
+    return pow(x, 2)
+```
 
 ### Multiple use
 
-You might add one file path (ex. [src/mul.py]()) for multiple code blocks:
+You might add one file path (ex. [src/mul.py]("./src/mul.py")) for multiple code blocks:
 
 ```py:src/mul.py
 from math import pow
@@ -67,3 +89,6 @@ So, missing "lang" is available:
 echo "hello"
 ```
 
+## Formatting
+
+Notice that this action uses markdown parser/formatter, so, if you don't update any code, readme may be updated if formatter works.
