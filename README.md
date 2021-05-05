@@ -19,7 +19,7 @@ def hello():
     return "world"
 ```
 
-See [src/helloworld.py]("./src/helloworld.py") as:
+See [src/helloworld.py](./src/helloworld.py) as:
 
 * Synchronized code.
 * Highlighting code in readme.
@@ -32,7 +32,7 @@ And notice that there are nothing to do re-embedding new/modified code. This act
 Let's try demonstration in your repository as follows:
 
 1. fork this repository.
-1. edit [src/helloworld.py]("./src/helloworld.py"), create a new branch and start a pull request.
+1. edit [src/helloworld.py](./src/helloworld.py), create a new branch and start a pull request.
 1. go to PR to check action result.
 1. you can see auto updated readme at new branch you created above. (see if [above code block](#mark-your-code-for-embedding) is modified)
 1. you can try again, if you edit it and commit again.
@@ -40,7 +40,7 @@ Let's try demonstration in your repository as follows:
 ## More features
 ### Embedding specific lines
 
-You might add specific lines from one file (ex. [src/mul.py]("./src/mul.py")).
+You might add specific lines from one file (ex. [src/mul.py](./src/mul.py)).
 
 This action supports this with the syntax as "\`\`\`lang:external/file/path.py [start:end]\`\`\`" for it:
 
@@ -51,7 +51,7 @@ def multiple(x):
 
 ### Multiple use
 
-You might add one file path (ex. [src/mul.py]("./src/mul.py")) for multiple code blocks:
+You might add one file path (ex. [src/mul.py](./src/mul.py)) for multiple code blocks:
 
 ```py:src/mul.py
 from math import pow
