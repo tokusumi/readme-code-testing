@@ -1,9 +1,6 @@
 name: Test code and embed into README
 
 on:
-  push:
-    branches:
-      - main
   pull_request:
     branches:
       - main
