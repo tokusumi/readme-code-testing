@@ -1,4 +1,4 @@
-name: Test code and embed into README
+name: "Test code and embed into README@v0.1.1"
 
 on:
   push:
@@ -24,7 +24,7 @@ jobs:
       - name: Test with pytest
         run: pytest test_src
 
-      - uses: tokusumi/markdown-embed-code@main
+      - uses: tokusumi/markdown-embed-code@0.1.1
         with:
           markdown: "README.md"
 
