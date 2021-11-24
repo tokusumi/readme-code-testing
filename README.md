@@ -16,8 +16,7 @@ The following code block has a file path `src/helloworld.py`:
 
 ```python:src/helloworld.py
 def hello():
-    return "v1.0.0 world"
-
+    return "v1.0.0 bbb world"
 ```
 
 See [src/helloworld.py](./src/helloworld.py) as:
