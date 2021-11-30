@@ -94,3 +94,5 @@ echo "hello"
 ## Formatting
 
 Notice that this action uses markdown parser/formatter, so, if you don't update any code, readme may be updated if formatter works.
+
+test
