@@ -24,7 +24,7 @@ jobs:
         run: pytest test_src
 
       - name: embedding readme
-        uses: tokusumi/markdown-embed-code@v1.0.0
+        uses: tomasz-kapela/markdown-embed-code@v1.0.0
         with:
           markdown: "README.md"
           token: ${{ secrets.GITHUB_TOKEN }}
