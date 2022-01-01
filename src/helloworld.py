@@ -1,2 +1,3 @@
 def hello():
-    return "v1.0.0 world"
+    message = "v1.0.0 world"
+    return message
