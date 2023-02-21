@@ -15,10 +15,8 @@ This action could inspect your code, if you add a file path in code block as "\`
 The following code block has a file path `src/helloworld.py`:
 
 ```python:src/helloworld.py
-def hello():
-    return "v1.0.0 world"
-
 ```
+ 
 
 See [src/helloworld.py](./src/helloworld.py) as:
 
@@ -93,3 +91,5 @@ echo "hello"
 ## Formatting
 
 Notice that this action uses markdown parser/formatter, so, if you don't update any code, readme may be updated if formatter works.
+
+test
