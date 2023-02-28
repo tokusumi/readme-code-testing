@@ -1,2 +1,2 @@
 def hello():
-    return "Deneme"
+    return "Deneme 2"
