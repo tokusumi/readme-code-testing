@@ -93,3 +93,20 @@ echo "hello"
 ## Formatting
 
 Notice that this action uses markdown parser/formatter, so, if you don't update any code, readme may be updated if formatter works.
+
+
+This is an embedded sequence diagram imported from an external file.
+```mermaid:mermaidSeqTest.mmd
+
+```
+
+
+This is an embedded C4 diagram imported from an external file.
+```mermaid:mermaidC4Test.mmd
+
+``` 
+
+This is an embedded Class diagram imported from an external file.
+```mermaid:mermaidClassTest.mmd
+
+``` 
